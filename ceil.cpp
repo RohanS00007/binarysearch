@@ -3,7 +3,7 @@ using namespace std;
 int ceil(int arr[],int n,int target){
     int low=0;
     int high=n-1;
-    int ans=n;
+    int ans=-1;
     while(low<=high){
         int mid=(low+high)/2;
         if(arr[mid]>=target){ 
